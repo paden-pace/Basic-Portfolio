@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 
+<body>
 	<header>
 		<h1>Paden Pace</h1>
 
@@ -17,10 +18,10 @@
 
 	</header>
 
-	<body>
-			<div class="main">
+
+			<div class="main" id="main-contact">
 				<h2>Contact</h2>
-					<form id="contact-form" method="post" action="mailto:pjpace27@yahoo.com">
+					<form id="contact-form" method="post" enctype="text/plain" action="mailto:pjpace27@yahoo.com">
 						<div class="row">
 							<label>Name</label><br>
 							<input type="text" value="" name=" Name" placeholder="John Smith" class="box" id="name-box"><br>
@@ -31,9 +32,9 @@
 						</div>
 						<div class="row">
 							<label>Message</label><br>
-							<textarea rows="10" cols="70" id="Message-box"></textarea><br>
+							<textarea type="text" name="comment" rows="10" cols="70" id="Message-box"></textarea><br>
 						 </div>
-						<input type="submit" id="submit-button" name="submit-button"><br>
+						<input type="submit" id="submit-button" name="submit-button" value="Send email"><br>
 					</form>
 			</div>
 
@@ -50,9 +51,10 @@
 					</a>
 			</div>
 
-	</body>
+	
 
 	<footer>
 		&copy; Copyright 2016 Paden Pace
 	</footer>
+</body>
 </html>

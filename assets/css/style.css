@@ -154,29 +154,60 @@ footer {
 	margin: 0px 20px 0px 20px;
 }
 
-.project-tab {
+#main-portfolio {
+
+}
+
+.project-img {
 	width: 200px;
 	height: 150px;
 	float: left;
-	margin: 20px 10px 20px 20px;
-	z-index: 10;
+	margin: 20px 15px 20px 20px;
 	position: relative;
+	z-index: 10;
 }
+
+.project-img:hover {
+	opacity: 0.5;
+}
+
 
 .project-title {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-family: 'Georgia', Times, 'Times New Roman, serif';
-	font-size: 20px;
-	width: 200px;
+	font-size: 19px;
+	width: 180px;
 	padding: 10px 10px 10px 10px;
 	margin: 0 0 0 100px;
 	text-align: center;
-	top: 0px;
-	float: left;
-	z-index: 5;
 	position: absolute;
-	top: 100px;
+	z-index: 20;
+}
+
+#title-hangman{
+	top: 285px;
+	left: 40px;
+}
+
+#title-rpg{
+	top: 285px;
+	left: 275px;
+}
+
+#title-trivia{
+	top: 475px;
+	left: 40px;
+}
+
+#title-rutgers{
+	top: 475px;
+	left: 275px;
+}
+
+#title-rock{
+	top: 665px;
+	left: 40px;
 }
 
 #contact-form {
@@ -204,6 +235,12 @@ footer {
 	border: none;
 	margin: 15px 0 20px 20px;
 	font-size: 12px;
+}
+
+.placeholder-img {
+	height: 375px;
+	width: 250px;
+	margin: 0 20px 20px 20px;
 }
 
 
