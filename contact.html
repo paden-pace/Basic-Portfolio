@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Paden Pace Contact</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 
@@ -10,36 +10,43 @@
 		<h1>Paden Pace</h1>
 
 			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
+				<a href="index.html" class="nav-tab" id="nav-about">About</a>
+				<a href="portfolio.html" class="nav-tab" id="nav-portfolio">Portfolio</a>
+				<a href="contact.html" class="nav-tab" id="nav-contact">Contact</a>
 			</nav>
+
 	</header>
 
 	<body>
 			<div class="main">
 				<h2>Contact</h2>
-					<form>
-						<p>Name</p>
-						<input type="" name="">
-						<p>E-mail</p>
-						<input type="" name="">
-						<p>Message</p>
-						<input type="" name="">
-						<button>Submit</button>
+					<form id="contact-form" method="post" action="mailto:pjpace27@yahoo.com">
+						<div class="row">
+							<label>Name</label><br>
+							<input type="text" value="" name=" Name" placeholder="John Smith" class="box" id="name-box"><br>
+						 </div>
+						 <div class="row">
+							<label>E-mail</label><br>
+							<input type="text" value="" name="E-mail" placeholder="example@gmail.com" class="box" id="E-mail-box"><br>
+						</div>
+						<div class="row">
+							<label>Message</label><br>
+							<textarea rows="10" cols="70" id="Message-box"></textarea><br>
+						 </div>
+						<input type="submit" id="submit-button" name="submit-button"><br>
 					</form>
 			</div>
 
 			<div class="sidebar">
 				<h3>Connect with me</h3>
 					<a href="https://github.com/paden-pace">
-						<img src="assets/images/github-square.png" alt="github-square" width="50px" height="50px" />
+						<img src="assets/images/github-square.png" alt="github-square" class="social-link" width="50px" height="50px" />
 					</a>
 					<a href="https://www.linkedin.com/in/paden-pace-510949a1?">
-						<img src="assets/images/linkedin-square.png" alt="linkedin-square" width="50px" height="50px" />
+						<img src="assets/images/linkedin-square.png" alt="linkedin-square" class="social-link" width="50px" height="50px" />
 					</a>
 					<a href="http://stackoverflow.com/users/7196071/paden-pace">
-						<img src="assets/images/stackoverflow-square.png" alt="stackoverflow-square"/ width="50px" height="50px">
+						<img src="assets/images/stackoverflow-square.png" alt="stackoverflow-square" class="social-link" width="50px" height="50px">
 					</a>
 			</div>
 
