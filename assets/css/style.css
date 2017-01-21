@@ -33,6 +33,10 @@ h1 {
 	float: left;
 }
 
+h1:hover {
+	opacity: 0.5;
+}
+
 
 nav{
 	color: #7777777;
@@ -149,7 +153,7 @@ footer {
 	font-size: 11px;
 	color: #ffffff;
 	text-align: center;
-	padding: 10px 0 20px 0;
+	padding: 20px 0 20px 0;
 	clear: both;
 }
 
